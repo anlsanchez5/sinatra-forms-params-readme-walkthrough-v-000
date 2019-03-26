@@ -10,5 +10,4 @@ class App < Sinatra::Base
   get '/food' do
     erb :food_form
   end
-  end
 end
